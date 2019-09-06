@@ -11,10 +11,12 @@
 axios.get("https://lambda-times-backend.herokuapp.com/topics")
 
   .then( (response) => {
-    console.log(response)  
+    console.log(response.data.topics)  
+    response.data.topics.unshift("All")
         response.data.topics.forEach( obj => {
         const newTopic = Topic(obj)
         addingToDomTwo.appendChild(newTopic)
+        
     })
   })
   .catch( (err) => {
@@ -33,6 +35,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
 
 //adding content to elements
 
+    
     dClassTopic.textContent = obj
     
 
