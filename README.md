@@ -50,10 +50,10 @@ Answer: Components are created reusable set of custom elements.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [*] Fork the project into your GitHub user account
+* [*] Clone the forked project into a directory on your machine
+* [*] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [*] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
